@@ -3,7 +3,6 @@ package operaciones;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
@@ -31,7 +30,6 @@ public class ServicioLecturaFicheroPeticion {
 	}
 
 	private PeticionLinea crearPeticion(String lin) {
-		//Tancat Sala1 01/01/2008 31/12/2008 LMCJVSG 00-07_21-24
 		final byte ACTI=0, SALA=1, FECHIN=2, FECHOUT=3, DIAS=4, FRANJA=5;
 		String[] arrayLineaPeticion = lin.split(" ");
 		String actividad = arrayLineaPeticion[ACTI];

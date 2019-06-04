@@ -2,7 +2,6 @@ package modelo;
 
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 public class PeticionLinea {
 	//Tancat Sala1 01/01/2008 31/12/2008 LMCJVSG 00-07_21-24

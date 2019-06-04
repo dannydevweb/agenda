@@ -3,9 +3,7 @@ package operaciones;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map.Entry;
 
 import exceptions.ExceptionMaster;
@@ -83,21 +81,20 @@ public class ServicioMapaPeticiones {
 		}
 	}
 
-
 	public LinkedHashMap<String, String> getMapaPeticiones() {
 		return mapaPeticiones;
 	}
-
 
 	public LinkedHashMap<String, String> getFranjaHoraActividad() {
 		return franjaHoraActividad;
 	}
 
-
 	public LinkedHashMap<String, Integer> getFechaDiaNumerodia() {
 		return fechaDiaNumerodia;
 	}
-	
-		
+
+	public String getSala() {
+		return sala;
+	}
 	
 }

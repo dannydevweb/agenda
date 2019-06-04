@@ -1,9 +1,6 @@
 package operaciones;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 import exceptions.ExceptionMaster;
 import exceptions.FranjaHorariaErroneaException;
 import exceptions.NumeroDeFranjasMayorACincoException;

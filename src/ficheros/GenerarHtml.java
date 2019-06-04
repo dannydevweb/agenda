@@ -8,9 +8,10 @@ import java.util.LinkedHashMap;
 
 
 public class GenerarHtml{
-	String cad = "SALA1";
+	String cad = "";
 	
-	public void generafichero(LinkedHashMap<String, String> db) {
+	public void generafichero(LinkedHashMap<String, String> db,String cad) {
+		this.cad = cad;
 		
 		LeerFicheroConfig configuracion = new LeerFicheroConfig();
 		
@@ -41,7 +42,7 @@ public class GenerarHtml{
 		        
 		 try{
 			 
-		     filewriter = new FileWriter("sala1.html");//declarar el archivo
+		     filewriter = new FileWriter(cad+".html");//declarar el archivo
 		     printw = new PrintWriter(filewriter);//declarar un impresor
 		            
 		     printw.println("<html>");
